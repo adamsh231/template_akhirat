@@ -47,7 +47,6 @@
                     <ul class="header__menu__dropdown">
                         <li><a href="./ulama-list.html">Habaib & U'lama</a></li>
                         <li><a href="./pengajian-list.html">Pengajian</a></li>
-                        <li><a href="./pengajian-list.html">Cuplikan</a></li>
                         <li><a href="./checkout.html">Majelis Ta'lim</a></li>
                         <li><a href="./blog-details.html">Masjid</a></li>
                     </ul>
@@ -77,7 +76,6 @@
                                 <ul class="header__menu__dropdown">
                                     <li><a href="./ulama-list.html">Habaib & U'lama</a></li>
                                     <li><a href="./pengajian-list.html">Pengajian</a></li>
-                                    <li><a href="./pengajian-list.html">Cuplikan</a></li>
                                     <li><a href="./checkout.html">Majelis Ta'lim</a></li>
                                     <li><a href="./blog-details.html">Masjid</a></li>
                                 </ul>
@@ -122,7 +120,35 @@
     <section class="blog spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-7">
+
+                <div class="col-lg-3 col-md-5">
+                    <div class="blog__sidebar">
+                        <div class="blog__sidebar__item">
+                            <h4 class="text-center">Filter Pengajian</h4>
+                            <h6 class="text-center mt-4">Tanggal</h6>
+                            <div class="d-flex justify-content-center my-2">
+                                <input type="date" class="form-control">
+                            </div>
+                            <h6 class="text-center mt-4">Majelis Ta'lim</h6>
+                            <div class="d-flex justify-content-center my-2">
+                                <select class="form-control form-control-sm">
+                                    <option>Semua Majelis</option>
+                                    <option>Zaadul Muslim</option>
+                                </select>
+                            </div>
+                            <h6 class="text-center mt-4">Ustadz</h6>
+                            <div class="d-flex justify-content-center my-2">
+                                <select class="form-control form-control-sm">
+                                    <option>Semua Ustadz</option>
+                                    <option>Habib Alwi bin Abdurrahman Assegaf</option>
+                                    <option>Habib Umar bin Muhammad bin Salim bin Hafidz</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-9 col-md-7">
 
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12">
@@ -131,19 +157,6 @@
                                     <input type="text" class="text-center" placeholder="Cari Pengajian">
                                     <button type="submit"><span class="icon_search"></span></button>
                                 </form>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row mb-4">
-                        <div class="col-lg-6 col-md-4 col-sm-4">
-                        </div>
-                        <div class="col-lg-6 col-md-4 col-sm-4">
-                            <div class="d-flex justify-content-end">
-                                <select class="form-control form-control-sm">
-                                    <option>Pengajian Terbaru</option>
-                                    <option>Pengajian Terfavorit</option>
-                                </select>
                             </div>
                         </div>
                     </div>
@@ -317,6 +330,7 @@
 
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
