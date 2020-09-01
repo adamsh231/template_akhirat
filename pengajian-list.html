@@ -25,6 +25,34 @@
         .xxx {
             border: 1px solid red
         }
+
+        .notify-badge-full {
+            position: absolute;
+            background: rgba(31, 156, 0, 1);
+            height: 2rem;
+            top: 0.5rem;
+            right: 1.5rem;
+            width: 2rem;
+            text-align: center;
+            line-height: 2rem;
+            font-size: 1rem;
+            border-radius: 50%;
+            color: white;
+        }
+
+        .notify-badge-cut {
+            position: absolute;
+            background: rgba(2, 135, 156, 1);
+            height: 2rem;
+            top: 0.5rem;
+            right: 1.5rem;
+            width: 2rem;
+            text-align: center;
+            line-height: 2rem;
+            font-size: 1rem;
+            border-radius: 50%;
+            color: white;
+        }
     </style>
 </head>
 
@@ -125,23 +153,23 @@
                     <div class="blog__sidebar">
                         <div class="blog__sidebar__item">
                             <h4 class="text-center">Filter Pengajian</h4>
-                            <h6 class="text-center mt-4">Tanggal</h6>
+                            <h6 class="text-center mt-3">Tanggal</h6>
                             <div class="d-flex justify-content-center my-2">
                                 <input type="date" class="form-control">
                             </div>
-                            <h6 class="text-center mt-4">Majelis Ta'lim</h6>
+                            <h6 class="text-center mt-3">Majelis Ta'lim</h6>
                             <div class="d-flex justify-content-center my-2">
                                 <select class="form-control form-control-sm">
                                     <option>Semua Majelis</option>
                                     <option>Zaadul Muslim</option>
                                 </select>
                             </div>
-                            <h6 class="text-center mt-4">Ustadz</h6>
+                            <h6 class="text-center mt-3">Ustadz</h6>
                             <div class="d-flex justify-content-center my-2">
                                 <select class="form-control form-control-sm">
                                     <option>Semua Ustadz</option>
-                                    <option>Habib Alwi bin Abdurrahman Assegaf</option>
-                                    <option>Habib Umar bin Muhammad bin Salim bin Hafidz</option>
+                                    <option>Habib Alwi bin Abdurrahman...</option>
+                                    <option>Habib Umar bin Muhammad...</option>
                                 </select>
                             </div>
                         </div>
@@ -167,6 +195,7 @@
                             <a href="./pengajian-detail.html">
                                 <div class="blog__item">
                                     <div class="blog__item__pic">
+                                        <span class="notify-badge-full">Full</span>
                                         <img src="img/habib/Arridwan.jpg" alt="">
                                     </div>
                                     <div class="blog__item__text">
@@ -186,6 +215,7 @@
                             <a href="./pengajian-detail.html">
                                 <div class="blog__item">
                                     <div class="blog__item__pic">
+                                        <span class="notify-badge-cut">Cut</span>
                                         <img src="img/habib/darusshofa.jpg" alt="">
                                     </div>
                                     <div class="blog__item__text">
@@ -205,6 +235,7 @@
                             <a href="./pengajian-detail.html">
                                 <div class="blog__item">
                                     <div class="blog__item__pic">
+                                        <span class="notify-badge-cut">Cut</span>
                                         <img src="img/habib/zm.jpg" alt="">
                                     </div>
                                     <div class="blog__item__text">
@@ -224,6 +255,7 @@
                             <a href="./pengajian-detail.html">
                                 <div class="blog__item">
                                     <div class="blog__item__pic">
+                                        <span class="notify-badge-cut">Cut</span>
                                         <img src="img/habib/nuhud.jpg" alt="">
                                     </div>
                                     <div class="blog__item__text">
@@ -243,6 +275,7 @@
                             <a href="./pengajian-detail.html">
                                 <div class="blog__item">
                                     <div class="blog__item__pic">
+                                        <span class="notify-badge-full">Full</span>
                                         <img src="img/habib/zm.jpg" alt="">
                                     </div>
                                     <div class="blog__item__text">
@@ -262,6 +295,7 @@
                             <a href="./pengajian-detail.html">
                                 <div class="blog__item">
                                     <div class="blog__item__pic">
+                                        <span class="notify-badge-cut">Cut</span>
                                         <img src="img/habib/azzahir.jpg" alt="">
                                     </div>
                                     <div class="blog__item__text">
@@ -281,6 +315,7 @@
                             <a href="./pengajian-detail.html">
                                 <div class="blog__item">
                                     <div class="blog__item__pic">
+                                        <span class="notify-badge-full">Full</span>
                                         <img src="img/habib/Arridwan.jpg" alt="">
                                     </div>
                                     <div class="blog__item__text">
@@ -300,6 +335,7 @@
                             <a href="./pengajian-detail.html">
                                 <div class="blog__item">
                                     <div class="blog__item__pic">
+                                        <span class="notify-badge-cut">Cut</span>
                                         <img src="img/habib/azzahir.jpg" alt="">
                                     </div>
                                     <div class="blog__item__text">
@@ -415,8 +451,6 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
-
 
 </body>
 
